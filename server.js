@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.get('/random', (req, res) => {
+app.get('/', (req, res) => {
   const randomNumber = Math.floor(Math.random() * 6) + 1;
-  res.json({ number: randomNumber });
+  res.send(`Random Number: ${randomNumber}`);
 });
 
 app.listen(port, () => {
