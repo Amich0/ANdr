@@ -1,0 +1,14 @@
+{
+  "name": "randomizer-app",
+  "version": "1.0.0",
+  "description": "A simple random number generator app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "ANDR",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
